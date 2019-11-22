@@ -31,19 +31,3 @@ it("renders both child  with data", () => {
   expect(container.textContent).toContain("Guglielmo Marconi");
   expect(container.textContent).toContain("Shortlist features for MVP");
 });
-
-// describe('AddToOrder component', () => {
-//   it('should be handling checkboxChecked', () => {
-//     const wrapper = shallow(<TodoList {...props.cart} />);
-//     expect(wrapper.checkBoxChecked()).equals(true); //error appears here
-//   });
-// });
-
-
-// it("renders list items", () => {
-//   act(() => {
-//     render(<TodoList list={fakeList} />, container);
-//   });
-
-//   expect(container.textContent).toContain(fakeList.data[0].label);
-// })
